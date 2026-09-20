@@ -1,0 +1,26 @@
+INGILIZCE KOCU APK OLUSTURMA — COK BASIT
+
+1) GitHub'da yeni bir repository olustur.
+   Ornek isim: english-coach
+
+2) Bu paketin ICINDEKI dosyalari repository ana dizinine yukle.
+   ZIP dosyasinin kendisini yukleme; once bilgisayarinda cikart.
+
+3) .github klasoru tarayicidan yuklenmezse:
+   GitHub > Add file > Create new file
+   Dosya adi olarak aynen sunu yaz:
+   .github/workflows/build-apk.yml
+
+   Sonra paketin icindeki .github/workflows/build-apk.yml dosyasinin metnini yapistir ve Commit changes de.
+
+4) GitHub ust menuden Actions'a gir.
+   "English Coach APK Build" calismasini ac.
+
+5) Islem yesil tik olursa calismanin en altindaki Artifacts bolumunu bul.
+   EnglishCoach-APK dosyasini indir.
+
+6) ZIP'i ac.
+   app-debug.apk dosyasi Android telefona kurulacak uygulamadir.
+
+NOT:
+Bu proje ilk andan itibaren AndroidX, Java 17/Kotlin 17 ve GitHub'in guncel Android SDK kurulumu icin ayarlanmistir.
